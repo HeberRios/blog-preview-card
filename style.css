@@ -80,6 +80,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     font-family: var(--ff-regular);
     font-weight: var(--fw-regular);
     background-color: var(--clr-yellow);
@@ -87,6 +88,8 @@ body {
 }
 
 .course-card {
+    min-width: 20.43rem;
+    max-width: 24rem;
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
@@ -107,12 +110,12 @@ body {
 
         .wrapper:nth-child(2) {
             h1 {
-                font-size: 1.25rem;
+                font-size: clamp(1.25rem, 2dvw, 1.5rem);
                 font-weight: var(--fw-bold);
             }
 
             p {
-                font-size: 0.875rem;
+                font-size: clamp(0.875rem, 1dvw, 1rem);
                 line-height: 1.5;
                 color: var(--clr-gray-500);
             }
