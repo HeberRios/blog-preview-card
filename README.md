@@ -87,7 +87,3 @@ Have a better understanding of semantic HTML and fluid typography.
 ## Acknowledgments
 
 -   Frontend Mentor - [@JEWebDev](https://www.frontendmentor.io/profile/JEWebDev)
-
-```
-
-```
